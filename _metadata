@@ -1,0 +1,10 @@
+{
+  "author" : "Enigmanitez",
+  "description" : "So...I'm sure everyone has suffered from crewmembers sitting on the captain's chair at some point. Right? Well, this tool is designed to help with that. Think of it like putting a label down...one that says STAY OFF MY CHAIR! Also works on beds. You can pick it up from the wiring station, under switches.\n\nBe warned, however, this isn't a perfect mod. It will not keep them a distance away or remove them from the objects automatically. Only vanilla behaviors are affected, so if your 'friends' use custom behaviors, this mod might not have any effect. Also, most importantly: this effect will not persist through breaking and replacing objects.\n\nHow it all works: \n1) patching vanilla behaviors to replace the function that finds stuff to sit or sleep on. This patch is designed to be as clean as possible, of course, so it just adds a script that is loaded afterwards (and thus, should be compatible with any other similar style edits). The replaced function just has a condition check for whether the object in question has a specific tag, noNPCLounge.\n2) A scripted tool and stagehand that add the tag to the placed object in question. Again, tag addition will not persist through breaking the object.",
+  "friendlyName" : "That's My Chair",
+  "link" : "steam://url/CommunityFilePage/1354895379",
+  "name" : "ThatsMyChair",
+  "steamContentId" : "1354895379",
+  "tags" : "Miscellaneous|Furniture and Objects|In-Game Tools",
+  "version" : "1"
+}
